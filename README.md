@@ -1,8 +1,8 @@
-# [your app name here]
+# QuestTwyst  
 
 CodePath WEB103 Final Project
 
-Designed and developed by: [your names here]
+Designed and developed by: Elizabeth Kilroy, Mymuna Murshed, Johanna Devilme, Gaby Yanes, Jerry Rogers Jr
 
 🔗 Link to deployed app:
 
@@ -12,11 +12,9 @@ Designed and developed by: [your names here]
 
 QuestTwyst is an interactive web app where readers experience stories one passage at a time. At the end of each passage, readers choose between two options, and each choice leads to a different part of the story. Because every decision changes the path, readers can experience multiple storylines and endings. Users can also create and publish their own branching stories in genres like fantasy, mystery, sci-fi, comedy, or horror.
 
-We wanted to make reading more interactive by allowing readers to influence how stories unfold. Traditional books only have one ending, but QuestTwyst lets readers make decisions that lead to different outcomes. It also gives writers a creative platform to build and share their own branching stories.
-
 ### Inspiration
 
-[text goes here]
+We wanted to make reading more interactive by allowing readers to influence how stories unfold. Traditional books only have one ending, but QuestTwyst lets readers make decisions that lead to different outcomes. It also gives writers a creative platform to build and share their own branching stories.
 
 ## Tech Stack
 
