@@ -19,9 +19,9 @@ We wanted to make reading more interactive by allowing readers to influence how 
 ## Tech Stack
 
 Frontend:
-    Jacascript
+    JavaScript
     HTML
-    Css
+    CSS
     React Router
 
 Backend:
