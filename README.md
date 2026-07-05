@@ -19,31 +19,62 @@ We wanted to make reading more interactive by allowing readers to influence how 
 ## Tech Stack
 
 Frontend:
+    Jacascript
+    HTML
+    Css
+    React Router
 
 Backend:
+    Node.js
+    Express.js
+    Restful API 
+    PostgreSQL
+    Netlify (at this time)
+
+
 
 ## Features
 
-### [Name of Feature 1]
+### Account Creation, Login, and Deletion
 
-[short description goes here]
-
-[gif goes here]
-
-### [Name of Feature 2]
-
-[short description goes here]
+Users will be able to create an account, log in, and delete their account when they no longer want to use the app.
 
 [gif goes here]
 
-### [Name of Feature 3]
+### Story Library API
+The backend will include Express routes that allow the app to retrieve available stories from the database. Readers will be able to view a list of stories and open a specific story by ID, but story creation will be handled through seeded/admin-managed data instead of regular user submissions.
 
-[short description goes here]
 
 [gif goes here]
+
+### Branching Passage and Choice API
+The backend will store each story as connected passages. Each passage will include two choices, such as Option A and Option B, and each choice will point to the next passage in the story. This allows the reader’s selection to determine which part of the story appears next.
+
+[gif goes here]
+
+### Genre Filtering API
+The backend will organize stories by genre, such as mystery, comedy, fantasy, romance, and sci-fi. Readers will be able to request stories by genre so they can quickly find the type of adventure they want to read.
+
+[gif goes here]
+
+### User Reading Progress
+The backend will track a reader’s current location within a story. This allows users to leave a story and later return to the passage where they stopped reading.
+
+[gif goes here]
+
+### Story Path History
+The backend will save the choices a reader makes while moving through a story. This allows the app to show the path the reader took and makes it possible for users to replay the same story using different choices.
+
+[gif goes here] 
+
+### Admin Story Management
+The backend will support admin-managed story content. Admins or developers will be able to add, update, or delete stories, passages, choices, and genres while readers focus on reading and choosing story paths.
+
+[gif goes here]
+
 
 ### [ADDITIONAL FEATURES GO HERE - ADD ALL FEATURES HERE IN THE FORMAT ABOVE; you will check these off and add gifs as you complete them]
 
 ## Installation Instructions
 
-[instructions go here]
+At this time website will be deployed through Netlify. 
