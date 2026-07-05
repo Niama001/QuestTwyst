@@ -29,7 +29,7 @@ Backend:
     Express.js
     Restful API 
     PostgreSQL
-    Netlify (at this time)
+    Render (at this time)
 
 
 
@@ -74,6 +74,15 @@ The backend will support admin-managed story content. Admins or developers will 
 
 
 ### [ADDITIONAL FEATURES GO HERE - ADD ALL FEATURES HERE IN THE FORMAT ABOVE; you will check these off and add gifs as you complete them]
+
+### Story Reader Interface
+The frontend will display one passage at a time along with two clickable choice buttons (Option A and Option B). Selecting a choice loads the next passage instantly without navigating to a new page, letting readers move through the story in a smooth, uninterrupted way. 
+[gif goes here]
+
+### Story Creator Interface
+The frontend will provide a form-based editor where users can write a story title, add passages, and fill in the two choices that branch off each passage. Validation will prevent saving a passage until the title and both choices are filled in, and users can mark any passage as an ending.
+[gif goes here]
+
 
 ## Installation Instructions
 
