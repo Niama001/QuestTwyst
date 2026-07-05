@@ -14,7 +14,7 @@ QuestTwyst is an interactive web app where readers experience stories one passag
 
 ### Inspiration
 
-We wanted to make reading more interactive by allowing readers to influence how stories unfold. Traditional books only have one ending, but QuestTwyst lets readers make decisions that lead to different outcomes. It also gives writers a creative platform to build and share their own branching stories.
+We wanted to take the choose-your-own-adventure format traditionally found in printed and e-books and reimagine it as a fully interactive website experience. Traditional books only offer one path and one ending, but QuestTwyst brings that branching story format online, letting readers actively influence how each story unfolds in real time. Readers can dive into pre-made stories curated for the platform, or explore custom stories written and published by other users, giving both readers and writers a creative space to build and share branching narratives.
 
 ## Tech Stack
 
