@@ -22,11 +22,11 @@ This unit, be sure to complete all tasks listed below. To complete a task, place
 ### 1. What went well during this unit?
 
 Group meeting, we talked about our ideas and assigned tasks to ourselves.
+Creating additional tools and sharing resources to support each other. 
 
 ### 2. What were some challenges your group faced in this unit?
-
+At this time it is a little bit about timing in our schedules. But also we are practicing elicitations between each other to go towards the goal on creating our wonderful project to life. 
 
 
 ### 3. What additional support will you need in upcoming units as you continue to work on your final project?
-
-[👉🏾👉🏾👉🏾 your answer here]
+As we continue working on our final project, I believe our group would benefit from more structured weekly communication with the CodePath team. It would be helpful to have scheduled check-ins where we can confirm that we are moving in the right direction, ask questions, and receive feedback before each milestone is due. This would function similarly to a scrum or sprint review, helping us stay organized, address issues early, and make steady progress throughout the project. Yes we do have the tutoring times available but by using those times time frames and visiting maybe twice a week strengthen our teams foundation. 
