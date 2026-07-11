@@ -33,3 +33,6 @@ We also had some early discussion about whether path_history should log every ch
 As we move forward, we will need more guidance on translating our finalized ERD into actual PostgreSQL table schemas and writing the corresponding migrations. We would also benefit from support on building out the Express API routes that handle the branching logic between passages and choices, as well as best practices for structuring our React components for the story reader interface. 
 
 We'd also appreciate feedback on how to efficiently query path and branch data for the Path Visualizer so it doesn't become a performance bottleneck as stories grow toward 128 possible endings.
+
+
+planning\wire_images\Questtwyst.drawio.png
