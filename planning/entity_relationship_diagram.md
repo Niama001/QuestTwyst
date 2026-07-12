@@ -82,7 +82,9 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 ### DIAGRAMS
 Users → Stories:
 One-to-Many: one user can create many stories, but each story has only one creator. 
-Example: user id=1, name=”Hailey” creates two stories like stories.id = 101 and stories.id = 102 (creater_id =1).
+Example: 
+user id=1, name=”Hailey” creates two stories like stories.id = 101 and stories.id = 102 (creater_id =1).
+
 Stories ←→ Genres:
 Many-to-Many: a story can have multiple genres, and a genre can apply multiple stories. 
 Example: Story 101: "Obsession" is tagged as both psychological thriller and horror. Meaning story_genres has two rows:
@@ -90,10 +92,12 @@ story_id =101, genre_id =1(psychological thriller)
 story_id =102, genre_id =2(horror)
 On the other hand, genre 2(horror) might also apply to story 103 
 story_id=103, genre_id=2
+
 Stories → Passages:
 One-to-Many:  one story contains many passages, each passage belongs to one story.
 Example: Story 101 has passage 1,2,3,4 - all with story_id = 101.
 Passage 2 can’t belong to two different stories at once. 
+
 Passage → Choices:
 One-to-Many:  one passage has multiple choices
 Example: Passage 1(“which one would you like to drink”) has:
@@ -106,16 +110,19 @@ One-to-Many:  one passage can be the destination of many choices, but each choic
 Example: 
 Choice 1: (“Go upstairs”) has next_passage_id =2
 Choice 2” (“Check the basement”) has  next_passage_id =3
+
 Users → Reading_Progress:
 One-to-Many:  one user can have many reading_progress rows, but each reading_progress row belongs to only one user.
 Example: 
 Reading_Progress 1: user_id = 1(“Hailey”), story_id =101, current_passage_id = 3
 Reading_Progress 2: user_id = 1(“Hailey”), story_id =102, current_passage_id = 5
+
 Stories → Reading_Progress: 
 One-to-Many:  One story can have many reading_progress rows, but each reading_progress row belongs to one story. 
 Example:
 Reading_Progress 1: story_id = 101 (“Hailey’s progress”), current_passage_id = 3
 Reading_Progress 2: story_id= 101 (“Declan’s progress”),  current_passage_id = 5
+
 Passage → Reading_Progress:
 One-to-Many: one passage can be the “current spot” for many reading_progress rows, but each reading_progress row points to only one current passage
 Example:
@@ -127,11 +134,12 @@ One-to-Many:  one user can have many path_history rows, but each path_history ro
 Example:
 Path_History 1: user_id =1(“Hailey), story_id =101, passage_id = 1, choice_id = 1
 Path_History 2: user_id =1(“Hailey), story_id =101, passage_id = 2, choice_id = 3
- Stories → Path_History:
+Stories → Path_History:
 One-to-Many:  one story can have many path_history rows, but each path_history row belongs to only one story.
 Example: 
 Path_History 1: passage_id = 1 (Hailey passed through here)
 Path_History 4: passage_id = 1 (Declan also passed through here)
+
 Choices → Path_History:
 One-to-Many: one choice can appear in many path_history rows, but each path_history row records only one choice.
 Example:
