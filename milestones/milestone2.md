@@ -16,6 +16,8 @@ This unit, be sure to complete all tasks listed below. To complete a task, place
 
 ## Reflection
 
+Note: pitch notes currently in (planning\pitch.txt)
+
 ### 1. What went well during this unit?
 
 Our group successfully identified all the core entities needed for QuestTwyst and mapped out a complete list of tables, including users, stories, genres, passages, choices, reading_progress, and path_history. We were able to break down complex relationships, such as the many-to-many connection between stories and genres.
