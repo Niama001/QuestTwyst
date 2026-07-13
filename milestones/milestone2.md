@@ -35,5 +35,4 @@ As we move forward, we will need more guidance on translating our finalized ERD 
 We'd also appreciate feedback on how to efficiently query path and branch data for the Path Visualizer so it doesn't become a performance bottleneck as stories grow toward 128 possible endings.
 
 
-![QuestTwyst wireframes](../planning/wire_images/Questtwyst.drawio.png)
 ![QuestTwyst wireframes](../planning/wire_images/Questtwyst-Testing%20Page%20Order.drawio.png)
