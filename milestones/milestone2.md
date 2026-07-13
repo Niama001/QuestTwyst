@@ -16,6 +16,8 @@ This unit, be sure to complete all tasks listed below. To complete a task, place
 
 ## Reflection
 
+Note: pitch notes currently in (planning\pitch.txt)
+
 ### 1. What went well during this unit?
 
 Our group successfully identified all the core entities needed for QuestTwyst and mapped out a complete list of tables, including users, stories, genres, passages, choices, reading_progress, and path_history. We were able to break down complex relationships, such as the many-to-many connection between stories and genres.
@@ -33,3 +35,7 @@ We also had some early discussion about whether path_history should log every ch
 As we move forward, we will need more guidance on translating our finalized ERD into actual PostgreSQL table schemas and writing the corresponding migrations. We would also benefit from support on building out the Express API routes that handle the branching logic between passages and choices, as well as best practices for structuring our React components for the story reader interface. 
 
 We'd also appreciate feedback on how to efficiently query path and branch data for the Path Visualizer so it doesn't become a performance bottleneck as stories grow toward 128 possible endings.
+
+
+![QuestTwyst wireframes](../planning/wire_images/Questtwyst.drawio.png)
+![QuestTwyst wireframes](../planning/wire_images/Questtwyst-Testing%20Page%20Order.drawio.png)
