@@ -14,6 +14,9 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 
 ## Add the Entity Relationship Diagram
+
+![Entity Relationship Diagram](entity_relationship_diagram.png)
+
 ### users
 | Column Name | Type | Description |
 |-------------|------|-------------|
@@ -80,6 +83,9 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 | timestamp | timestamp | when this choice was made |
 
 ### DIAGRAMS
+<img src='https://github.com/Niama001/QuestTwyst/blob/4d71d274fc7c0c10a67b6b335c32d8c86de78d9a/planning/QuestTwyst_page-0001.jpg' width='' alt='Video Walkthrough' />
+
+
 Users → Stories:
 One-to-Many: one user can create many stories, but each story has only one creator. 
 Example: 
