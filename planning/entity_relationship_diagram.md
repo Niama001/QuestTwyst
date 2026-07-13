@@ -14,6 +14,9 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 
 ## Add the Entity Relationship Diagram
+
+![Entity Relationship Diagram](entity_relationship_diagram.png)
+
 ### users
 | Column Name | Type | Description |
 |-------------|------|-------------|
