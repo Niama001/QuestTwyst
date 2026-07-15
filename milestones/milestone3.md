@@ -48,4 +48,4 @@ You will need to reference the GitHub Project Management guide in the course por
 
 ### 5. What additional support will you need in upcoming units as you continue to work on your final project?
 
-[👉🏾👉🏾👉🏾 your answer here]
+[👉🏾 your answer here]
